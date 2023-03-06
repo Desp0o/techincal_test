@@ -1,4 +1,5 @@
 import searchIcon from '../images/icons/search_ico.png'
+import RightSide from './rightSide'
 import ValueExchange from './valueExchange'
 
 
@@ -8,7 +9,7 @@ export default function MainSection(){
         <div className='w-full flex pl-[120px] pr-[120px]'>
 
             {/* left side */}
-            <div className="">
+            <div className="relative">
 
                 {/* texts */}
                 <div className="pt-[64px]">
@@ -19,7 +20,7 @@ export default function MainSection(){
                 </div>
 
                 {/* search input & location, weather, exchange*/}
-                <div className='relative my-[80px]'>
+                <div className='absolute my-[80px] z-10'>
 
                    <>
                         {/* input */}
@@ -51,6 +52,7 @@ export default function MainSection(){
 
 
             {/* right side */}
+            <RightSide />
         </div>
     )
 }
