@@ -12,17 +12,17 @@ export default function Navbar(){
                 <div className='flex h-full items-center gap-[24px]'>
 
                     {/* log in button */}
-                    <div className='w-[69px] h-[39px] rounded-[4px] flex items-center justify-center'>
+                    <div className='w-[69px] h-[39px] rounded-[4px] flex items-center justify-center cursor-pointer'>
                         <p className='text-light-grey text-[14px] leading-[20px] font-[firago]'>შესვლა</p>
                     </div>
 
                     {/* registration button */}
-                    <div className='w-[126px] h-[36px] bg-accent-red flex items-center justify-center rounded-[8px]'>
+                    <div className='w-[126px] h-[36px] bg-accent-red flex items-center justify-center rounded-[8px] cursor-pointer'>
                         <p className='text-light-grey text-[14px] font-[firago] leading-[20px]'>რეგისტრაცია</p>
                     </div>
 
                     {/* mode switch */}
-                    <img src={mode} alt='mode switch' />
+                    <img src={mode} alt='mode switch' className='cursor-pointer' />
 
                 </div>
         </div>
