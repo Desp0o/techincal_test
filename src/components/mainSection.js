@@ -6,7 +6,7 @@ import ValueExchange from './valueExchange'
 export default function MainSection(){
     
     return(
-        <div className='w-full flex pl-[120px] pr-[120px]'>
+        <div className='w-full flex pl-[120px] pr-[120px] relative'>
 
             {/* left side */}
             <div className="relative">

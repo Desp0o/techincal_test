@@ -16,6 +16,11 @@ module.exports = {
         'accent-red': '#E40641',
         'light-grey': '#EAECEF'
       },
+
+      backgroundImage: {
+        'gradient-Active': 'linear-gradient(180deg, #2C2F30 0%, rgba(44, 47, 48, 0.37) 100%)',
+        'gradient-deactive': 'linear-gradient(180deg, #1E2021 0%, rgba(30, 32, 33, 0.37) 100%)'
+      },
     
     },
 

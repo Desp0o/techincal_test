@@ -4,7 +4,7 @@ import image3 from '../images/image3.png'
 
 export default function RightSide(){
     return(
-        <div className="relative pt-[48px] pl-[99px] flex gap-[24px]">
+        <div className="absolute pt-[48px] right-[120px] flex gap-[24px]">
             {/* pictures */}
             <div className="flex flex-col gap-[24px]">
                 <img src={image1} alt='img-1' />
